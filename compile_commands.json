@@ -1,0 +1,23 @@
+[
+ {
+  "directory": "/home/peteran/Documents/Cplusplus",
+  "arguments": [
+   "g++-12",
+   "-ggdb",
+   "-O2",
+   "-std=c++2a",
+   "-DNDEBUG",
+   "-pedantic-errors",
+   "-Wall",
+   "-Weffc++",
+   "-Wextra",
+   "-Wconversion",
+   "-Wsign-conversion",
+   "-Werror",
+   "hello.cpp",
+   "-o",
+   "hello"
+  ],
+  "file": "hello.cpp"
+ }
+]
