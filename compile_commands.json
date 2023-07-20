@@ -11,9 +11,7 @@
    "-Wall",
    "-Weffc++",
    "-Wextra",
-   "-Wconversion",
-   "-Wsign-conversion",
-   "-Werror",
+   "-Werror", 
    "hello.cpp",
    "-o",
    "hello"
