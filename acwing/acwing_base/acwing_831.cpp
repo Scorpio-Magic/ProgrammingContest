@@ -26,6 +26,7 @@ int main() {
         while (j && p[i] != p[j + 1]) j = nxt[j];
         if (p[i] == p[j + 1]) ++j;
         nxt[i] = j;
+        // nxt[i] = p[i] == p[j + 1] ? nxt[j] : j;  // optimization
     }
 
     for (int i = 1, j = 0; i <= m; ++i) {
@@ -34,6 +35,7 @@ int main() {
         if (j == n) {
             cout << i - n << " ";
             j = nxt[j];
+            // i = i - n + 1;
         }
     }
     return 0;
